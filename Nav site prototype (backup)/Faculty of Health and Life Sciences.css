@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+div.container {
+background-color:#13EE6E;color:#5C6660;padding:20px;width:auto;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+	text-decoration: none;
+}
+
+.active {
+    background-color: blue;
+}
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      margin: auto;
+	  height: 30%; 
+  }
+  
+  .dropdown {
+	display: none;
+  }
+  
+  
+  .dropdown:hover{
+	display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+    
